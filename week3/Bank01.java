@@ -1,7 +1,4 @@
 import java.util.Scanner;
-/**
- * Bank01
- */
 public class Bank01 {
 
     public static void main(String[] args) {
