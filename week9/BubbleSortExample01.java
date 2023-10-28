@@ -6,7 +6,7 @@ public class BubbleSortExample01 {
         // looping
         for (int i=0; i<intdata.length; i++){
             for (int j=1; j<intdata.length-i; j++){
-                if (intdata[j-1]> intdata[j]) {
+                if (intdata[j-1]< intdata[j]) {
                     // swap element
                     temp = intdata[j];
                     intdata[j] = intdata[j-1];
